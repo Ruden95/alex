@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230514181552">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/header/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" data-goto-header data-goto=".services" class="menu__link">
+										Services
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto-header data-goto=".portfolio" class="menu__link">
+										Portfolios
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto-header data-goto=".career" class="menu__link">
+										Experience
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" data-goto-header data-goto=".blog" class="menu__link">
+										Blog
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a data-da=".menu__list, 767.98" href="#" class="header__button button">Отправить</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__content">
+							<div class="main-block__titles titles">
+								<h3 class="main-block__subtitle subtitle">MY NAME IS</h3>
+								<h1 class="main-block__title title title_big-size">Alex <span>Smith.</span></h1>
+							</div>
+							<div class="main-block__text text">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX</div>
+							<div class="main-block__social social">
+								<a href="#" class="social__item _icon-instagram"></a>
+								<a href="#" class="social__item _icon-github"></a>
+								<a href="#" class="social__item _icon-twitter"></a>
+								<a href="#" class="social__item _icon-linkedin"></a>
+							</div>
+						</div>
+						<div class="main-block__image-ibg">
+							<picture><source srcset="img/main-block/person.webp" type="image/webp"><img src="img/main-block/person.jpg" alt="person"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__titles titles">
+						<h3 class="services__subtitle subtitle">SERVICES</h3>
+						<h2 class="services__title title">Specialized in</h2>
+					</div>
+					<div class="services__row">
+						<div class="services__column column-services">
+							<div class="column-services__content">
+								<div class="column-services__icon">
+									<img src="img/services/01.svg" alt="icon">
+								</div>
+								<div class="column-services__label">UI/UX Design</div>
+								<div class="column-services__text">Turn what you have in mind of a digital product into reality. For any platform you consider.</div>
+							</div>
+						</div>
+						<div class="services__column column-services">
+							<div class="column-services__content">
+								<div class="column-services__icon">
+									<img src="img/services/02.svg" alt="icon">
+								</div>
+								<div class="column-services__label">Application Development</div>
+								<div class="column-services__text">Standard designing, building, and implementing your applications with documentation.
+								</div>
+							</div>
+						</div>
+						<div class="services__column column-services">
+							<div class="column-services__content">
+								<div class="column-services__icon">
+									<img src="img/services/03.svg" alt="icon">
+								</div>
+								<div class="column-services__label">Web Development</div>
+								<div class="column-services__text">Create and maintain your websites and also take care of its performance and traffic capacity.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__portfolio portfolio">
+				<div class="portfolio__container">
+					<div class="portfolio__header">
+						<div class="portfolio__titles titles">
+							<h3 class="portfolio__subtitle subtitle">MY WORKS</h3>
+							<h2 class="portfolio__title title">Featured Portfolios
+							</h2>
+						</div>
+						<div data-da=".portfolio__body, 767.98" class="portfolio__buttons">
+							<button type="button" class="portfolio-button-prev"></button>
+							<button type="button" class="portfolio-button-next"></button>
+						</div>
+					</div>
+					<div class="portfolio__body">
+						<!-- Оболочка слайдера -->
+						<div class="portfolio__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="portfolio__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="portfolio__slide swiper-slide">
+									<a href="#" class="portfolio__image-ibg">
+										<picture><source srcset="img/portfolios/01.webp" type="image/webp"><img src="img/portfolios/01.jpg" alt="image"></picture>
+									</a>
+									<div class="portfolio__content content-potfolio">
+										<div class="content-potfolio__name">Agency Website.</div>
+										<div class="content-potfolio__detail">
+											<a href="#" class="content-potfolio__tag tag">WordPress</a>
+											<a href="#" class="content-potfolio__link">
+												<img src="img/portfolios/shape.svg" alt="shape">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="portfolio__slide swiper-slide">
+									<a href="#" class="portfolio__image-ibg">
+										<picture><source srcset="img/portfolios/02.webp" type="image/webp"><img src="img/portfolios/02.jpg" alt="image"></picture>
+									</a>
+									<div class="portfolio__content content-potfolio">
+										<div class="content-potfolio__name">Dashboard Website.</div>
+										<div class="content-potfolio__detail">
+											<a href="#" class="content-potfolio__tag tag">React</a>
+											<a href="#" class="content-potfolio__link">
+												<img src="img/portfolios/shape.svg" alt="shape">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="portfolio__slide swiper-slide">
+									<a href="#" class="portfolio__image-ibg">
+										<picture><source srcset="img/portfolios/03.webp" type="image/webp"><img src="img/portfolios/03.jpg" alt="image"></picture>
+									</a>
+									<div class="portfolio__content content-potfolio">
+										<div class="content-potfolio__name">Support Center Website.</div>
+										<div class="content-potfolio__detail">
+											<a href="#" class="content-potfolio__tag tag">PHP</a>
+											<a href="#" class="content-potfolio__link">
+												<img src="img/portfolios/shape.svg" alt="shape">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<!-- <div class="swiper-pagination"></div> -->
+							<!-- Если нужна навигация (влево/вправо) -->
+							<!-- <button type="button" class="swiper-button-prev"></button>
+							<button type="button" class="swiper-button-next"></button> -->
+							<!-- Если нужен скролбар -->
+							<!-- <div class="swiper-scrollbar"></div> -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__career career">
+				<div class="career__container">
+					<div class="career__titles titles">
+						<h3 class="career__subtitle subtitle">career path</h3>
+						<h2 class="career__title title">Work Experices</h2>
+					</div>
+					<div data-tabs="767.98" class="tabs career__tabs tabs-career">
+						<nav data-tabs-titles class="tabs__navigation tabs-career__navigation">
+							<button type="button" class="tabs__title tabs-career__title _tab-active">Apple</button>
+							<button type="button" class="tabs__title tabs-career__title">Microsoft</button>
+							<button type="button" class="tabs__title tabs-career__title">Facebook</button>
+							<button type="button" class="tabs__title tabs-career__title">Slack</button>
+						</nav>
+						<div data-tabs-body class="tabs__content tabs-career__content">
+							<div class="tabs__body tabs-career__body body-tabs-career">
+								<div class="body-tabs-career__info">
+									<div class="body-tabs-career__title">Front-end Developer Apple .Inc</div>
+									<div class="body-tabs-career__location">California, United States
+									</div>
+									<div class="body-tabs-career__date">
+										Nov 2020 - Present · Full-time
+									</div>
+									<div class="body-tabs-career__tags">
+										<div class="body-tabs-career__tag tag">Swift</div>
+										<div class="body-tabs-career__tag tag">Go</div>
+									</div>
+								</div>
+								<ul class="body-tabs-career__list">
+									<li class="body-tabs-career__item">Improving overall website performance for mobile users.
+									</li>
+									<li class="body-tabs-career__item">Collaborate with back-end developers and web designers to improve usability
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, reiciendis?
+
+									</li>
+									<li class="body-tabs-career__item">Add voice search feature for mobile app.
+									</li>
+									<li class="body-tabs-career__item">Developing an admin panel to manage contents, users, products and ...
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus delectus ipsa similique dolorem assumenda voluptate placeat illo temporibus omnis. Asperiores aperiam distinctio ut cum?
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-career__body body-tabs-career">
+								<div class="body-tabs-career__info">
+									<div class="body-tabs-career__title">Front-end Developer Microsoft</div>
+									<div class="body-tabs-career__location">California, United States
+									</div>
+									<div class="body-tabs-career__date">
+										Nov 2020 - Present · Full-time
+									</div>
+									<div class="body-tabs-career__tags">
+										<div class="body-tabs-career__tag tag">Swift</div>
+										<div class="body-tabs-career__tag tag">Go</div>
+									</div>
+								</div>
+								<ul class="body-tabs-career__list">
+									<li class="body-tabs-career__item">Improving overall website performance for mobile users. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iste similique eius culpa quaerat quod iusto nisi explicabo dolor, ratione recusandae distinctio voluptates consequuntur veniam tempora repellendus. Officiis nihil sunt dicta, temporibus fuga odit vel ipsam consequuntur, magnam laborum ab maxime ducimus mollitia eligendi rem autem? Similique corrupti temporibus voluptates.
+									</li>
+									<li class="body-tabs-career__item">Collaborate with back-end developers and web designers to improve usability
+
+									</li>
+									<li class="body-tabs-career__item">Add voice search feature for mobile app.
+									</li>
+									<li class="body-tabs-career__item">Developing an admin panel to manage contents, users, products and ... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, asperiores commodi id hic accusamus laboriosam!
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-career__body body-tabs-career">
+								<div class="body-tabs-career__info">
+									<div class="body-tabs-career__title">Front-end Developer Facebook</div>
+									<div class="body-tabs-career__location">California, United States
+									</div>
+									<div class="body-tabs-career__date">
+										Nov 2020 - Present · Full-time
+									</div>
+									<div class="body-tabs-career__tags">
+										<div class="body-tabs-career__tag tag">Swift</div>
+										<div class="body-tabs-career__tag tag">Go</div>
+									</div>
+								</div>
+								<ul class="body-tabs-career__list">
+									<li class="body-tabs-career__item">Improving overall website performance for mobile users. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nemo ullam? Laudantium iste dolores culpa, iusto assumenda fuga recusandae magnam, aut, exercitationem placeat modi necessitatibus. Soluta suscipit rerum quae tenetur dolorem veritatis explicabo molestiae, modi accusamus doloremque totam?
+									</li>
+									<li class="body-tabs-career__item">Collaborate with back-end developers and web designers to improve usability Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ea mollitia sapiente earum fugit natus molestias cupiditate illum tempora voluptatum tempore modi consequuntur, debitis ad explicabo maxime veniam assumenda. Voluptatum sapiente incidunt reprehenderit beatae quidem voluptates hic quibusdam assumenda dolore.
+
+									</li>
+									<li class="body-tabs-career__item">Add voice search feature for mobile app.
+									</li>
+									<li class="body-tabs-career__item">Developing an admin panel to manage contents, users, products and ...
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-career__body body-tabs-career">
+								<div class="body-tabs-career__info">
+									<div class="body-tabs-career__title">Front-end Developer Slack</div>
+									<div class="body-tabs-career__location">California, United States
+									</div>
+									<div class="body-tabs-career__date">
+										Nov 2020 - Present · Full-time
+									</div>
+									<div class="body-tabs-career__tags">
+										<div class="body-tabs-career__tag tag">Swift</div>
+										<div class="body-tabs-career__tag tag">Go</div>
+									</div>
+								</div>
+								<ul class="body-tabs-career__list">
+									<li class="body-tabs-career__item">Improving overall website performance for mobile users.
+									</li>
+									<li class="body-tabs-career__item">Collaborate with back-end developers and web designers to improve usability
+
+									</li>
+									<li class="body-tabs-career__item">Add voice search feature for mobile app.
+									</li>
+									<li class="body-tabs-career__item">Developing an admin panel to manage contents, users, products and ...
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__blog blog">
+				<div class="blog__container">
+					<div class="blog__titles titles">
+						<h3 class="blog__subtitle subtitle">MY ARTICLES</h3>
+						<h2 class="blog__title title">Personal Blog</h2>
+					</div>
+					<div class="blog__body body-blog">
+						<div class="body-blog__card">
+							<div class="body-blog__image-ibg">
+								<picture><source srcset="img/blog/01.webp" type="image/webp"><img src="img/blog/01.jpg" alt="image"></picture>
+							</div>
+							<div class="body-blog__content content-blog">
+								<div class="content-blog__title">How to prototype in figma
+								</div>
+								<div class="content-blog__date item">
+									July 15, 2021
+								</div>
+								<div data-showmore class="block content-blog__showmore">
+									<div data-showmore-content="105" class="block__content content-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, similique.</div>
+									<button hidden data-showmore-button type="button" class="block__more content-blog__more-button"><span>Показать еще</span><span>Скрыть</span></button>
+								</div>
+							</div>
+						</div>
+						<div class="body-blog__card">
+							<div class="body-blog__image-ibg">
+								<picture><source srcset="img/blog/02.webp" type="image/webp"><img src="img/blog/02.jpg" alt="image"></picture>
+							</div>
+							<div class="body-blog__content content-blog">
+								<div class="content-blog__title">Being more productive with Notion.
+								</div>
+								<div class="content-blog__date item">
+									Aug 8, 2020
+								</div>
+								<div data-showmore class="block content-blog__showmore">
+									<div data-showmore-content="105" class="block__content content-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, similique.</div>
+									<button hidden data-showmore-button type="button" class="block__more content-blog__more-button"><span>Показать еще</span><span>Скрыть</span></button>
+								</div>
+							</div>
+						</div>
+						<div class="body-blog__card">
+							<div class="body-blog__image-ibg">
+								<picture><source srcset="img/blog/03.webp" type="image/webp"><img src="img/blog/03.jpg" alt="image"></picture>
+							</div>
+							<div class="body-blog__content content-blog">
+								<div class="content-blog__title">Beginners guide to adobe illustrator
+								</div>
+								<div class="content-blog__date item">
+									Feb 19, 2021
+								</div>
+								<div data-showmore class="block content-blog__showmore">
+									<div data-showmore-content="105" class="block__content content-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsum, explicabo ratione voluptatibus, inventore sapiente magni optio quam reprehenderit similique cum! Doloremque tempore adipisci hic aperiam, quidem repellendus facere inventore.</div>
+									<button hidden data-showmore-button type="button" class="block__more content-blog__more-button"><span>Показать еще</span><span>Скрыть</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__clients clients">
+				<div class="clients__container">
+					<div class="clients__titles titles">
+						<h3 class="clients__subtitle subtitle">MY CLIENTS</h3>
+						<h2 class="clients__title title">Testimonials</h2>
+					</div>
+					<div class="clients__body">
+						<div class="clients__item item-clients">
+							<div class="item-clients__content">
+								<div class="item-clients__image">
+									<picture><source srcset="img/clients/01.webp" type="image/webp"><img src="img/clients/01.jpg" alt="image"></picture>
+								</div>
+								<div class="item-clients__text">We were very pleased to hear how you resolved our website's user interface issues and challenges.
+								</div>
+								<div class="item-clients__name">Amelia Miller</div>
+								<div class="item-clients__tag tag">Designer</div>
+							</div>
+						</div>
+						<div class="clients__item item-clients">
+							<div class="item-clients__content">
+								<div class="item-clients__image">
+									<picture><source srcset="img/clients/02.webp" type="image/webp"><img src="img/clients/02.jpg" alt="image"></picture>
+								</div>
+								<div class="item-clients__text">I’m glad I decided to work with you. The project was delivered on time with all the requirements. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus saepe qui vitae minima pariatur eveniet.
+								</div>
+								<div class="item-clients__name">James Delaney
+								</div>
+								<div class="item-clients__tag tag">Developer</div>
+							</div>
+						</div>
+						<div class="clients__item item-clients">
+							<div class="item-clients__content">
+								<div class="item-clients__image">
+									<picture><source srcset="img/clients/03.webp" type="image/webp"><img src="img/clients/03.jpg" alt="image"></picture>
+								</div>
+								<div class="item-clients__text">The management of our projects was always faced with difficulties, but you handled these well.
+								</div>
+								<div class="item-clients__name">Isabella Bennett</div>
+								<div class="item-clients__tag tag">Manager</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="page__learning learning">
+				<div class="learning__container">
+					<div class="learning__titles titles">
+						<h3 class="learning__subtitle subtitle">LEARNING PATH</h3>
+						<h2 class="learning__title title">Education & Skills</h2>
+					</div>
+					<div class="learning__body">
+						<div class="learning__education">
+							<div class="learning__item item-learning">
+								<div class="item-learning__educate">
+									Kingston university
+								</div>
+								<div class="item-learning__speciality">
+									Master's degree - Software Engineering
+								</div>
+								<div class="item-learning__date">
+									2019 - 2021
+								</div>
+							</div>
+							<div class="learning__item item-learning">
+								<div class="item-learning__educate">
+									Kingston university
+								</div>
+								<div class="item-learning__speciality">
+									Bachelor's degree - Computer Engineering
+								</div>
+								<div class="item-learning__date">
+									2015 - 2019
+								</div>
+							</div>
+							<div class="learning__item item-learning">
+								<div class="item-learning__educate">
+									Westminster School
+								</div>
+								<div class="item-learning__speciality">
+									Diploma's degree - Mathematics
+								</div>
+								<div class="item-learning__date">
+									2013 - 2015
+								</div>
+							</div>
+						</div>
+						<div class="learning__skills skills-learning">
+							<div class="skills-learning__text">
+								For 5+ years, I have been continuously learning in the field of front-end and experimenting with new technologies and frameworks, and here you can see a summary of my skills.
+							</div>
+							<div class="skills-learning__technology technology-skills">
+								<div class="technology-skills__item">
+									<div class="technology-skills__name">React</div>
+									<div class="technology-skills__slider slider-technology">
+										<div class="slider-technology__react"></div>
+									</div>
+								</div>
+								<div class="technology-skills__item">
+									<div class="technology-skills__name">Angular</div>
+									<div class="technology-skills__slider slider-technology">
+										<div class="slider-technology__angular"></div>
+									</div>
+								</div>
+								<div class="technology-skills__item">
+									<div class="technology-skills__name">Javascript</div>
+									<div class="technology-skills__slider slider-technology">
+										<div class="slider-technology__javascript"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__form-block form-block">
+				<div class="form-block__container">
+					<div class="form-block__row">
+						<form action="#" method="get" class="form-block__body body-form">
+							<input type="text" name="name" data-error="Error" placeholder="Name" class="body-form__name" required>
+							<input type="email" name="email" data-error="Error" placeholder="Email" class="body-form__email" required>
+							<textarea name="message" placeholder="Message" class="body-form__textarea"></textarea>
+							<button type="submit" class="body-form__button">Send Message</button>
+						</form>
+						<div class="form-block__info info-form-block">
+							<div class="info-form-block__item">
+								<div class="info-form-block__image">
+									<img src="img/form-block/address.svg" alt="icon">
+								</div>
+								<div class="info-form-block__content">
+									<div class="info-form-block__name">Address</div>
+									<div class="info-form-block__data">3424 Layman Avenue, Fayetteville, NC</div>
+								</div>
+							</div>
+							<div class="info-form-block__item">
+								<a href="tel:5014141541" class="info-form-block__image">
+									<img src="img/form-block/phone.svg" alt="icon">
+								</a>
+								<div class="info-form-block__content">
+									<div class="info-form-block__name">Phone</div>
+									<a href="tel:5014141541" class="info-form-block__data">(501) 414-1541</a>
+								</div>
+							</div>
+							<div class="info-form-block__item">
+								<a href="mailto:devchapter@gmail.com" class="info-form-block__image">
+									<img src="img/form-block/email.svg" alt="icon">
+								</a>
+								<div class="info-form-block__content">
+									<div class="info-form-block__name">E-Mail</div>
+									<a href="mailto:devchapter@gmail.com" class="info-form-block__data">devchapter@gmail.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__social social">
+					<a href="#" class="social__item _icon-instagram"></a>
+					<a href="#" class="social__item _icon-github"></a>
+					<a href="#" class="social__item _icon-twitter"></a>
+					<a href="#" class="social__item _icon-linkedin"></a>
+				</div>
+				<div class="footer__copyright">
+					© 2022 - DevChapter
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230514181552"></script>
+</body>
+
+</html>
